@@ -10,3 +10,6 @@ def solution(X, A):
         if len(leaves) == X:
             return second
     return -1
+
+if __name__ == '__main__':
+    print(solution(6, [1,6,5,2,2,3,4,5]))
